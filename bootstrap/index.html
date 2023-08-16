@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="img/onça.jpg">
+</head>
+<body>
+
+    <!--menu bar-->
+    <nav class="navbar col-12 position-fixed bg-dark navbar-expand-lg" data-bs-theme="dark" style="z-index: 999;">
+        <div class="container-fluid col-11">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">home</a>
+              <a class="nav-link" href="#produtos">curiosidade animal</a>
+              <a class="nav-link" href="#conteudo">conteúdo</a>
+              <a class="nav-link" href="#footer">direitos</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/onça_resized.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ouriço_resized.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/urso v_resized_resized.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!--cards-->
+              <h2 id="produtos"  class="text-center">curiosidade animal</h2>
+              <div class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto"></div>
+
+              <!--cards-->
+                <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/aie.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aie-aie</h5>
+                       <!-- inicio código modal -->
+                       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ver mais...
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title fs-5" id="exampleModalLabel">Aie-aie</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              
+                              <img src="img/aie.jpg" class="card-img-top" alt="...">
+                              <p class="card-text">O aie-aie é uma espécie curiosa de mamífero endêmico da ilha de Madagascar. Atualmente, está em perigo de extinção, razão infeliz pela qual ganhou maior visibilidade em todo o mundo.</p>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--conteudo-->  
+              <br><br>
+              <hr class="col-11 m-auto"/>
+              <div id="conteudo" class="col-11 m-auto"></div>
+                <h2 class="text-center">meu conteudo</h2>
+                <p class="text-center">"Os animais pertencem ao Reino Animalia e podem ser definidos de maneira simplificada como organismos eucariotos, multicelulares e heterotróficos. Acredita-se, com base no estudo de fósseis, que esses organismos tenham surgido há cerca de 710 milhões de anos." </p>
+              </div>
+              <hr class="col-11 m-auto"/>
+              <br><br>
+
+              <!--rodapé-->
+              <footer id="footer" class="page-footer p-5 col-11 m-auto"
+              style="background-color: #333;">
+                <div class="text-center" >
+                  <a href="#">@2023 copyright:garotas de programa</a>
+                </div>
+                    </footer>
+
+
+
+
+           
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
